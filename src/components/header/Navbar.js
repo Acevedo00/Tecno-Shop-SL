@@ -12,7 +12,7 @@ const Navbar = () => {
                <ItemListContainer 
                    itemUno = "Smartphones"
                    itemDos = "Accesorios"
-                   itemTres = "Fundas"
+                   itemTres = "Tablets"
                    itemCuatro = "Laptops"
                />
             </nav>

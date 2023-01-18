@@ -1,10 +1,31 @@
+import { Link } from "react-router-dom"
+ 
 const ItemListContainer = (props) => {
     return (
         <ul>
-            <li>{props.itemUno}</li>
-            <li>{props.itemDos}</li>
-            <li>{props.itemTres}</li>
-            <li>{props.itemCuatro}</li>
+            <li>
+                <Link to= "category/Smartphones">
+                    {props.itemUno}
+                </Link>
+            </li>
+            
+            <li>
+                <Link to= "category/Accesorios">
+                    {props.itemDos}
+                </Link>
+            </li>
+            
+            <li>
+                <Link to= "category/Tablets">
+                    {props.itemTres}
+                </Link>
+            </li>
+            
+            <li>
+                <Link to= "category/Laptops">
+                    {props.itemCuatro}
+                </Link>
+            </li>
         </ul>
     )
 }
